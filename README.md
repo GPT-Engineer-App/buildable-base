@@ -5,8 +5,9 @@ This is a minimal web application setup using React, Tailwind CSS, and Vite. It 
 ## Features
 
 1. Basic HTML structure
-2. Simple CSS for styling
-3. Basic JavaScript setup
+2. sasa
+3. Simple CSS for styling
+4. Basic JavaScript setup
 
 ## Getting Started
 
