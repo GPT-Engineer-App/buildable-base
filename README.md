@@ -1,38 +1,60 @@
-# buildable-base
+# Bare-Bones Web Application
 
-Create a bare-bones application that I can modify and build on.
+This is a minimal web application setup using React, Tailwind CSS, and Vite. It provides a basic structure to start building your application.
 
-## Collaborate with GPT Engineer
+## Features
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+1. Basic HTML structure
+2. Simple CSS for styling
+3. Basic JavaScript setup
 
-Changes made via gptengineer.app will be committed to this repo.
+## Getting Started
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
+### Prerequisites
 
-## Tech stack
+Make sure you have Node.js and npm installed on your machine.
 
-This project is built with React with shadcn-ui and Tailwind CSS.
+### Installation
 
-- Vite
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd <project-directory>
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
 
-## Setup
+### Running the Application
 
-```sh
-git clone https://github.com/GPT-Engineer-App/buildable-base.git
-cd buildable-base
-npm i
-```
-
+To start the development server, run:
 ```sh
 npm run dev
 ```
 
-This will run a dev server with auto reloading and an instant preview.
+Open your browser and navigate to `http://localhost:3000` to see the application in action.
 
-## Requirements
+### Building for Production
 
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To build the application for production, run:
+```sh
+npm run build
+```
+
+The optimized and minified files will be generated in the `dist` directory.
+
+### Modifying the Application
+
+- The main entry point of the application is `src/main.jsx`.
+- The main component is located in `src/pages/Index.jsx`.
+- Global styles can be modified in `src/index.css`.
+
+Feel free to modify and build on this application as per your requirements.
+
+## License
+
+This project is licensed under the MIT License.
